@@ -1608,6 +1608,10 @@ GtkComboBox {
     border-color: transparent;
     background-color: shade(@theme_base_color, 1.2);
     box-shadow: none; }
+    
+.search-bar, .location-bar {
+  box-shadow: none;
+  }
 
 /***************
  * Header bars *
@@ -1905,14 +1909,58 @@ GtkComboBox {
 .path-bar .button, .path-bar .header-bar .button.titlebutton, .header-bar .path-bar .button.titlebutton,
 .path-bar .titlebar .button.titlebutton,
 .titlebar .path-bar .button.titlebutton {
-  padding: 5px 6px 6px; }
+  padding: 5px 6px 6px;
+  background-image: url("assets/pathbar-carrot-dummy.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
   .path-bar .button:first-child {
-    padding-left: 8px; }
+    padding-left: 8px;
+    background-image: url("assets/pathbar-carrot-dummy.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
   .path-bar .button:last-child {
-    padding-right: 8px; }
+    padding-right: 8px;
+    background-image: url("assets/pathbar-carrot-dummy.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
   .path-bar .button:only-child {
     padding-left: 12px;
-    padding-right: 12px; }
+    padding-right: 12px;
+    background-image: 	url("assets/pathbar-carrot.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
+  .path-bar .button:active, .path-bar .header-bar .button.titlebutton:active, .header-bar .path-bar .button.titlebutton:active,
+.path-bar .titlebar .button.titlebutton:active,
+.titlebar .path-bar .button.titlebutton:active,
+.path-bar .button:active:hover, .path-bar .header-bar .button.titlebutton:active:hover, .header-bar .path-bar .button.titlebutton:active:hover,
+.path-bar .titlebar .button.titlebutton:active:hover,
+.titlebar .path-bar .button.titlebutton:active:hover,
+.path-bar .button:checked, .path-bar .header-bar .button.titlebutton:checked, .header-bar .path-bar .button.titlebutton:checked,
+.path-bar .titlebar .button.titlebutton:checked,
+.titlebar .path-bar .button.titlebutton:checked,
+.path-bar .button:checked:hover, .path-bar .header-bar .button.titlebutton:checked:hover, .header-bar .path-bar .button.titlebutton:checked:hover,
+.path-bar .titlebar .button.titlebutton:checked:hover,
+.titlebar .path-bar .button.titlebutton:checked:hover {
+  padding: 5px 6px 6px;
+  background-image: 	url("assets/pathbar-carrot.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
+  .path-bar .button:first-child:active,
+  .path-bar .button:first-child:active:hover,
+  .path-bar .button:first-child:checked,
+  .path-bar .button:first-child:checked:hover {
+    padding-left: 8px;
+    background-image: 	url("assets/pathbar-carrot.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
+  .path-bar .button:last-child:active,
+  .path-bar .button:last-child:active:hover,
+  .path-bar .button:last-child:checked,
+  .path-bar .button:last-child:checked:hover  {
+    padding-right: 8px;
+    background-image: 	url("assets/pathbar-carrot.png");
+    background-repeat: no-repeat;
+    background-position: bottom; }
   .path-bar .button .label:last-child {
     padding-left: 2px; }
   .path-bar .button .label:first-child {
