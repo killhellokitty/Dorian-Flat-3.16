@@ -331,16 +331,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="23.64"
-     inkscape:cx="-2.0473454"
+     inkscape:cx="-1.8147208"
      inkscape:cy="12.133161"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1019"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1046"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
@@ -372,8 +372,8 @@
      inkscape:groupmode="layer"
      transform="translate(0,32)">
     <g
-       id="g4229"
-       transform="matrix(1.9999999,0,0,1.9999999,2.9284208e-7,-16.022433)">
+       id="g4204"
+       transform="matrix(2,0,0,2,6.9205473e-8,-16.02286)">
       <g
          id="g4207">
         <path
@@ -384,8 +384,8 @@
       </g>
       <path
          id="rect17861-2-1"
-         d="M 9.9999997,-7.1377125 3.4089649,-0.61549759 C 1.6976763,1.0782375 0.6288603,3.4236902 0.6288603,6.0315447 c 0,5.1841143 4.18198,9.3620293 9.3711394,9.3620293 5.1891613,0 9.3711403,-4.177915 9.3711403,-9.3620294 0,-2.5130782 -0.989915,-4.7820185 -2.592683,-6.45980209 -0.05037,-0.052728 -0.104602,-0.1045003 -0.156185,-0.1560333 L 9.9999997,-7.1377125 Z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:none;stroke:#3099ff;stroke-width:1.25772119;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         d="M 9.9999997,-6.6663403 3.6448305,-0.37752821 C 1.9947818,1.2555951 0.96421424,3.5171139 0.96421424,6.0316441 c 0,4.9985969 4.03232436,9.0270019 9.03578546,9.0270019 5.0034633,0 9.0357863,-4.028405 9.0357863,-9.027002 0,-2.4231456 -0.95449,-4.61089 -2.499902,-6.22863265 -0.04857,-0.0508411 -0.100858,-0.10076067 -0.150595,-0.15044952 L 9.9999997,-6.6663403 Z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;stroke:#2066b4;stroke-width:1.92842829;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
          inkscape:connector-curvature="0" />
     </g>
   </g>
