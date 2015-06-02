@@ -14,7 +14,7 @@
    height="16px"
    id="svg3776"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="column-header.svg">
   <defs
      id="defs3778">
@@ -121,16 +121,6 @@
        gradientTransform="matrix(1.0037639,0,0,1.0034958,0.02750308,0.91652437)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3768"
-       id="linearGradient3774"
-       x1="4.1806931"
-       y1="0.066831619"
-       x2="4.1806931"
-       y2="14.93331"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94436848,0,0,1.0036043,0.44505193,0.4729676)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3778-8"
        id="linearGradient3784-0"
        x1="-11.352475"
@@ -180,16 +170,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.197802"
-     inkscape:cx="15.033364"
+     inkscape:cx="6.834354"
      inkscape:cy="6.410229"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1866"
-     inkscape:window-height="1041"
-     inkscape:window-x="1366"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata3781">
@@ -208,7 +198,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
     <rect
-       style="fill:url(#linearGradient3774);fill-opacity:1;stroke:none"
+       style="fill:#262626;fill-opacity:1;stroke:none"
        id="rect4316"
        width="16"
        height="16"
@@ -233,12 +223,12 @@
        ry="0"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="opacity:0.04;fill:#ffffff;fill-opacity:1;stroke:none"
+       style="opacity:0.03999999;fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3776-2"
        width="1"
        height="15"
-       x="0"
-       y="-15"
+       x="-2.8381188"
+       y="-15.315347"
        ry="0"
        transform="scale(1,-1)" />
   </g>

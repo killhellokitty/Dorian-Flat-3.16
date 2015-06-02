@@ -14,10 +14,22 @@
    height="16"
    id="svg33222"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="inline-toolbar.svg">
   <defs
      id="defs33224">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4194">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.60000002"
+         offset="0"
+         id="stop4196" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1"
+         id="stop4198" />
+    </linearGradient>
     <linearGradient
        id="linearGradient3799">
       <stop
@@ -202,16 +214,6 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3799"
-       id="linearGradient3805"
-       x1="7"
-       y1="1"
-       x2="7"
-       y2="16"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,-1)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3799-0"
        id="linearGradient3805-4"
        x1="7"
@@ -267,6 +269,15 @@
          offset="1"
          id="stop3803-7" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4194"
+       id="linearGradient4200"
+       x1="5.1662283"
+       y1="-0.0069766846"
+       x2="5.1662283"
+       y2="2.0507584"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -276,16 +287,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="22.840648"
-     inkscape:cx="-6.7166758"
+     inkscape:cx="-11.278107"
      inkscape:cy="9.6910261"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1866"
-     inkscape:window-height="1041"
-     inkscape:window-x="1366"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
@@ -332,10 +343,10 @@
        rx="0.70495456"
        ry="0.70495456" />
     <rect
-       style="fill:url(#linearGradient3805);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:#2a2a2a;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3797"
        width="16"
-       height="15"
+       height="15.175126"
        x="0"
        y="0" />
     <rect
@@ -343,29 +354,29 @@
        id="rect3811"
        width="1"
        height="15"
-       x="15"
-       y="0" />
+       x="16.795046"
+       y="-0.043781593" />
     <rect
        style="fill:#565656;fill-opacity:0.94117647;stroke:none"
        id="rect3811-8"
        width="1"
        height="15"
-       x="14"
-       y="-15"
+       x="17.590092"
+       y="-14.73731"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="fill:#d6d6d6;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.29999999999999999"
+       style="opacity:0.3;fill:url(#linearGradient4200);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3797-6"
-       width="15"
+       width="16.006977"
        height="2"
        x="0"
        y="0" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3811-8-1"
        width="1"
        height="16"
-       x="15"
+       x="15.131344"
        y="-16"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
@@ -373,30 +384,30 @@
        id="rect3811-80"
        width="1"
        height="15"
-       x="0"
-       y="0" />
+       x="-3.7214355"
+       y="-0.17512637" />
     <rect
-       style="fill:#d6d6d6;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.20000000000000001"
+       style="opacity:0.2;fill:#d6d6d6;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3797-6-8"
        width="12"
        height="1"
-       x="-14"
-       y="1"
+       x="-14.087564"
+       y="-3.4657228"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       style="fill:#d6d6d6;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.20000000000000001"
+       style="opacity:0.2;fill:#d6d6d6;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3797-6-8-8"
        width="12"
        height="1"
-       x="-14"
-       y="14"
+       x="-14.131345"
+       y="16.539333"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       style="fill:#c4c4c4;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.16"
+       style="opacity:0.16000001;fill:#c4c4c4;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3797-6-8-0"
        width="12"
        height="1"
-       x="2"
-       y="13" />
+       x="1.2119313"
+       y="17.378159" />
   </g>
 </svg>

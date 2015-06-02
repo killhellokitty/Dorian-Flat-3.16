@@ -14,7 +14,7 @@
    height="64"
    id="svg33222"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="progressbar-v.svg">
   <defs
      id="defs33224">
@@ -897,16 +897,6 @@
          offset="1"
          id="stop3953-2" />
     </linearGradient>
-    <linearGradient
-       y2="-13"
-       x2="14"
-       y1="-16"
-       x1="14"
-       gradientTransform="matrix(0.99000931,0,0,2.1533967,-17.824004,34.224253)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3880"
-       xlink:href="#linearGradient3949-1"
-       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -916,16 +906,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="11.299746"
-     inkscape:cx="31.32767"
+     inkscape:cx="15.221113"
      inkscape:cy="29.163028"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1866"
-     inkscape:window-height="1041"
-     inkscape:window-x="1366"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
@@ -971,7 +961,7 @@
        height="5.0308342"
        width="63.030834"
        id="rect17861-6-3"
-       style="color:#000000;fill:url(#linearGradient3880);fill-opacity:1;stroke:#081b30;stroke-width:0.96916598;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#267ad8;fill-opacity:1;stroke:#267ad8;stroke-width:0.96916598;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

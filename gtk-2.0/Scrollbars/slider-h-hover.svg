@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="slider-h.svg">
+   sodipodi:docname="slider-h-hover.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -606,7 +606,7 @@
        rx="2.054765"
        ry="1.924495" />
     <rect
-       style="fill:#565656;fill-opacity:1;stroke:none"
+       style="fill:#154478;fill-opacity:1;stroke:none"
        id="rect4020-2"
        width="7"
        height="24.230778"
