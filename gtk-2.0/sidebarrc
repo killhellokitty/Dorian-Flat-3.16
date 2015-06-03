@@ -22,7 +22,10 @@ class		 "*ThunarTreeView"			style		"sidebar"
 widget_class	"*FmPlacesView*"		style 		"sidebar"
 widget_class	"*FmDirTreeView"			style 		"sidebar"
 widget_class "*<ThunarShortcutsPane>*<ThunarShortcutsView>"  style  "sidebar"
-widget_class "*CajaSidePane*"				style "sidebar"
+widget_class "*CajaSidePane.*"                 style "sidebar"
+widget_class "*Caja*Places*Sidebar*"           style "sidebar"
+widget_class "*Caja*Side*.GtkWidget"           style "sidebar"
+widget_class "*Caja*Side*Title*"               style "sidebar"
 
 
 style "caja-icon-view"
@@ -33,6 +36,7 @@ style "caja-icon-view"
 
 widget_class "*FMIconView"				style "caja-icon-view"
 widget_class "*FMListView"				style "caja-icon-view"
+widget_class "*Caja*View*"                     style "caja-icon-view"
 
 style "thunar-fm-iconview" 
 {
@@ -65,6 +69,23 @@ style "pcmanfm-handle"
 	GtkPaned::handle-size = 1
 }
 
+style "caja-handle" {
+	GtkPaned::handle-size = 2
+	
+	engine "pixmap" {
+		# for the thin gray line separating the sidepane and viewpane
+		image {
+			function	= HANDLE
+			recolorable	= TRUE
+			file		= "Handles/handle-h.png"
+			stretch		= TRUE
+			border		= { 0, 0, 0, 0 }
+		}
+	}
+}
+
+widget "*Caja*Splitter"                        style "caja-handle"
+
 style "sidebar-handle"
 {
 	GtkPaned::handle-size = 3
@@ -74,10 +95,37 @@ widget		"*FmMainWin*FmTabPage*"		style "pcmanfm-handle"
 widget		"*Thunar*GtkHPaned*"		style "sidebar-handle"
 widget	    "*CajaNavigationWindow*GtkHPaned*"		style "sidebar-handle"
 
+style "caja-location"
+{
+	bg[NORMAL]  = mix (0.60, shade (1.05, @bg_color), @bg_color)
+}
+
+widget "*.caja-extra-view-widget"              style : highest "caja-location"
 
 ########File Chooser#
 widget		"*FileChooserDefault*.GtkHPaned*"  style "sidebar-handle"
 
 widget		"*FileChooserDefault.GtkVBox.GtkHPaned.GtkVBox.GtkScrolledWindow.GtkTreeView"					style		"sidebar"
+
+style "pluma-frame" {	
+	engine "pixmap" {
+ 		image {
+			function = SHADOW
+		}
+	}
+}
+
+style "pluma-statusbar" {	
+	ythickness = 0
+}
+
+style "pluma-notebook" {
+	xthickness = 0 # Width of tabs and notebook borders.
+	ythickness = 1 # Height of tabs and notebook borders.
+}
+
+widget_class "*Pluma*.<GtkFrame>*"		style "pluma-frame"
+widget_class "*Pluma*.<GtkNotebook>"		style "pluma-notebook"
+widget_class "*Pluma*.<GtkStatusbar>*"		style "pluma-statusbar"
 
 

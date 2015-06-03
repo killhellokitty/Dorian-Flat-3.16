@@ -1608,7 +1608,10 @@ bg[NORMAL] = @base_color
 
 style "gimp_spin_scale"
 {
-  bg[NORMAL] = @base_color
+  base[NORMAL] 		= "#1a1a1a"
+		bg[NORMAL] 		= "#1a1a1a"
+		bg[SELECTED] 		= "#154478"
+		text[NORMAL] 		= @fg_color
 
   engine "pixmap"
   {
@@ -2410,6 +2413,7 @@ style "null"
         }
  	}
 }
+
 
 
 class "GtkWidget"			style "default"
