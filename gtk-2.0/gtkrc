@@ -750,7 +750,8 @@ style "menu"
 	ythickness	= 0
 
 	GtkMenuItem::arrow-scaling	= 0.4
-
+	fg[INSENSITIVE]	= "#676767"
+	text[INSENSITIVE]	="#676767"
 	bg[NORMAL]	= "#123b67"
         bg[INSENSITIVE] = "#123b67"
         bg[PRELIGHT]    = "#123b67"
