@@ -1083,7 +1083,7 @@ style "entry"
 	xthickness	= 3
 	ythickness   	= 4
 
-        base[NORMAL] 		= "#ededed" #Spotify, Opera Browser, and other non gtk apps use 
+        base[NORMAL] 		= "#1a1a1a" #Spotify, Opera Browser, and other non gtk apps use 
 								#this as the entry text-area-input#
         base[INSENSITIVE] = @insensitive_bg_color
 
