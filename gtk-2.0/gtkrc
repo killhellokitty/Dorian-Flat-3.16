@@ -1208,8 +1208,6 @@ engine "pixmap"
                 file                    = "Entry/entry-bg-insensitive.svg"
                 border                  = { 0, 0, 0, 0 }
                 stretch                 = TRUE
-                overlay_file			= "/stripes.png"
-		overlay_stretch			= FALSE
         }
     }
 }
