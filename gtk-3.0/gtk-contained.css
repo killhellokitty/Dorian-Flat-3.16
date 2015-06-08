@@ -4913,6 +4913,46 @@ NemoWindow .sidebar row:hover {
 
 .nemo-inactive-pane .view {
 	background-color: shade(@theme_base_color, 0.85);
+	color: shade(@theme_fg_color,0.8);
+}
+
+.nemo-inactive-pane .view:selected,
+.nemo-inactive-pane .nautilus-canvas-item:selected {
+    background-color: alpha(@theme_selected_bg_color, 0.85);
+    color: @theme_selected_fg_color;
+}
+
+/* small buttons on the nemo status bar */
+
+NemoWindow GtkStatusbar {
+    padding: 0;
+}
+
+NemoWindow .toolbar .button.image-button {
+    -GtkWidget-focus-line-width: 0;
+    -GtkWidget-focus-padding: 0;
+    padding: 4px;
+}
+
+/* the fix above for the statusbar buttons also affects the primary toolbar so we need to reset the
+    padding for those buttons */
+
+NemoWindow .primary-toolbar.toolbar .button.image-button {
+    padding: 4px 7px 5px;
+}
+
+/*************
+ * evolution *
+ *************/
+
+GtkHTML {
+    background-color: @theme_base_color;
+    color: @theme_fg_color;
+}
+
+GtkHTML:active {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
 }
 
 /* GTK NAMED COLORS
