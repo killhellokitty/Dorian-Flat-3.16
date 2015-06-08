@@ -4823,6 +4823,98 @@ GdMainListView.view.songs-list.content-view:backdrop {
                                     alpha(@theme_base_color, 0.68));
 }
 
+/*** Nemo ***/
+
+NemoPlacesTreeView {
+	-NemoPlacesTreeView-disk-full-bg-color: #131313;
+	-NemoPlacesTreeView-disk-full-fg-color: shade(@theme_selected_bg_color, 1.4);
+	-NemoPlacesTreeView-disk-full-bar-width: 2px;
+	-NemoPlacesTreeView-disk-full-bar-radius: 1px;
+	-NemoPlacesTreeView-disk-full-bottom-padding: 1px;
+	-NemoPlacesTreeView-disk-full-max-length: 70px;
+}
+
+NemoPlacesTreeView:selected {
+	-NemoPlacesTreeView-disk-full-bg-color: #131313;
+	-NemoPlacesTreeView-disk-full-fg-color: #7dbe08;
+}
+
+NemoWindow .sidebar .view {
+	background-color: transparent;
+	color: shade(@theme_fg_color,0.6);
+}
+
+NemoWindow .sidebar .frame {
+	border-right-width: 0px;
+	border-style: none;
+	border-color: #4c4c4c;
+	border-left: none;
+	border-top-width: 0px;
+	border-bottom: none;
+}
+
+NemoWindow .toolbar {
+  border-width: 0 0 0px;
+  border-style: none;
+  border-color: #aaaaaa;
+  box-shadow: inset 0 -1px rgba(255,255,255,0.03);
+  }
+
+NemoWindow .toolbar:backdrop {
+  border-width: 0 0 0px;
+  border-style: none;
+  border-color: #969696;
+  box-shadow: none;
+  }
+
+NemoWindow .sidebar row:selected,
+NemoWindow .sidebar row:selected:hover {
+	color: @theme_text_color;
+	background-color: #1e60aa;
+}
+
+NemoWindow .sidebar row:backdrop:selected,
+NemoWindow .sidebar row:backdrop:selected:hover {
+	color: color: shade(@theme_text_color,1.6);
+	text-shadow: none; 
+	background-color: #216abb;
+}
+
+NemoWindow .sidebar row:hover {
+	background-color: transparent;
+	color: shade(@theme_fg_color,0.6);
+}
+
+/* desktop mode */
+.nemo-desktop.nemo-canvas-item {
+	color: @theme_bg_color;
+	text-shadow: 1px 1px alpha (#000000, 0.8);
+}
+
+.nemo-desktop.nemo-canvas-item:active {
+	background-image: none;
+	background-color: alpha (@theme_bg_color, 0.84);
+	color: @theme_fg_color;
+}
+
+.nemo-desktop.nemo-canvas-item:selected {
+	background-image: none;
+	background-color: alpha (@theme_selected_bg_color, 0.84);
+	color: @theme_selected_fg_color;
+}
+
+.nemo-desktop.nemo-canvas-item:active,
+.nemo-desktop.nemo-canvas-item:prelight,
+.nemo-desktop.nemo-canvas-item:selected {
+	text-shadow: none;
+}
+
+/* inactive pane */
+
+.nemo-inactive-pane .view {
+	background-color: shade(@theme_base_color, 0.85);
+}
+
 /* GTK NAMED COLORS
    ----------------
    use responsibly! */
