@@ -30,6 +30,7 @@ EPreferencesWindow GtkNotebook GtkAlignment GtkVBox {
 
 .menu .radio * {
     box-shadow: none;
+    }
 
 .entry.readonly {
     background-color: #2f2f2f;
@@ -134,20 +135,20 @@ GtkScrolledWindow.frame {
   padding: 6px;
   border-width: 0px;
   border-style: none;
-  border-color: #161616;
-  border-top-color: rgba(255,255,255,.1);
-  border-radius:  0;
+  border-color: transparent;
+  border-top-color: transparent;
+  border-radius: 0px 0px 0 0;
   background-color: transparent;
   background-image: linear-gradient(to bottom, shade(@theme_base_color, 1.28));
-  
-  box-shadow: none; }
+  box-shadow: inset 0 -1px rgba(0,0,0,0), inset 0 1px rgba(0,0,0,0); }
   .titlebar:backdrop, GtkCalendar.header:backdrop,
   .header-bar:backdrop {
+  border-radius: 0px 0px 0 0;
     border-color: transparent;
     border-top-color: transparent;
     background-color:shade(@theme_base_color, 1.38);
     background-image: none;
-    box-shadow: none; }
+    box-shadow:inset 0 1px rgba(0,0,0,0); }
   .titlebar .title, GtkCalendar.header .title,
   .header-bar .title {
    }
@@ -184,7 +185,7 @@ GtkScrolledWindow.frame {
     border-top-color: transparent;
     border-style: none;
     border-width: 0px;
-    border-radius: 0;
+    border-radius: 0px 0px 0 0;
 
     color: @theme_fg_color;
     text-shadow: 0 1px shade (black, 0.3);
@@ -227,31 +228,25 @@ GtkScrolledWindow.frame {
   background-image:  none;
 box-shadow: none; }
     
-.primary-toolbar,
-.header-bar {
+.primary-toolbar {
     -GtkWidget-window-dragging: true;
 
     background-color: @theme_bg_color;
 box-shadow: inset 0 1px rgba(0, 0, 0, 0.18), inset 0 -1px alpha(white,0.02);
 }
 
-.primary-toolbar:backdrop,
-.header-bar:backdrop {
+.primary-toolbar:backdrop {
     background-color: shade(@theme_bg_color,1.2);
 box-shadow: inset 0 1px rgba(0, 0, 0, 0.1);
 }
 
-.primary-toolbar :insensitive,
-.header-bar :insensitive {
+.primary-toolbar :insensitive {
     text-shadow: 0 -1px shade (@insenesitive_bg_color, 0.7);
 }
  
 .primary-toolbar GtkSeparatorToolItem,
 .primary-toolbar .separator,
-.primary-toolbar .separator:insensitive,
-.header-bar GtkSeparatorToolItem,
-.header-bar .separator,
-.header-bar .separator:insensitive { 
+.primary-toolbar .separator:insensitive { 
 -GtkWidget-wide-separators: true;
     -GtkWidget-separator-width: 1px;
     border-width: 0 1px;
