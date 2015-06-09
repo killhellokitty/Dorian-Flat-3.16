@@ -4993,7 +4993,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color content_view_bg #ffffff;
 
 /*Ubuntu Styles*/
-
-/*import@url("unity.css")
-  import@url("ubuntu_styles.css")
+/*
+@import url("unity.css")
+@import url("ubuntu_styles.css")
   */
