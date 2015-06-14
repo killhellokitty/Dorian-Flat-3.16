@@ -702,7 +702,7 @@ GtkTextView {
         box-shadow: none; }
   .button.suggested-action, .header-bar .suggested-action.button.titlebutton,
   .titlebar .suggested-action.button.titlebutton {
-    color: @theme_text_color;
+    color: #121212;
     outline-color: rgba(255, 255, 255, 0.3);
     border-color: transparent;
     background-image: linear-gradient(to bottom, #4b91df);
@@ -719,7 +719,7 @@ GtkTextView {
       icon-shadow: none;
       color: #4a90d9; }
     .button.suggested-action:hover {
-      color: shade(@theme_text_color,0.8);
+      color: shade(#121212,0.8);
       outline-color: rgba(255, 255, 255, 0.3);
       border-color: transparent;
       background-image: linear-gradient(to bottom, #3a87dc);
@@ -1818,7 +1818,7 @@ GtkComboBox {
             color: inherit; }
       .titlebar.selection-mode .button.suggested-action,
       .header-bar.selection-mode .button.suggested-action {
-        color: @theme_text_color;
+        color: #121212;
         outline-color: rgba(255,255,255,0.3);
         border-color: transparent;
         background-image: linear-gradient(to bottom, #157849);
@@ -1827,7 +1827,7 @@ GtkComboBox {
         box-shadow:  0 2px alpha(black, 0.18), inset 0 1px alpha(white, 0.02); }
         .titlebar.selection-mode .button.suggested-action:hover,
         .header-bar.selection-mode .button.suggested-action:hover {
-          color: shade(@theme_text_color, 0.8);
+          color: shade(#121212, 0.8);
           outline-color: rgba(255,255,255,0.3);
           border-color: transparent;
           background-image: linear-gradient(to bottom, #126737);
@@ -4123,7 +4123,7 @@ GtkCalendar {
       .message-dialog.csd .dialog-action-area .titlebar .button.titlebutton:backdrop:insensitive > .label {
         color: inherit; }
     .message-dialog.csd .dialog-action-area .button.suggested-action {
-      color: @theme_text_color;
+      color: #121212;
       outline-color: rgba(255, 255, 255, 0.3);
       border-style: none;
       background-image: linear-gradient(to bottom, #157849);
@@ -4131,7 +4131,7 @@ GtkCalendar {
         icon-shadow: 0 1px rgba(255, 255, 255, 0.2);
       box-shadow: inset 0 1px alpha(white,0.04), inset 0 1px shade(@theme_base_color, 0.7); }
       .message-dialog.csd .dialog-action-area .button.suggested-action:hover {
-        color: shade(@theme_text_color, 0.8);
+        color: shade(#121212, 0.8);
         outline-color: rgba(255, 255, 255, 0.3);
         border-style: none;
         background-image: linear-gradient(to bottom, #126737);
@@ -4262,15 +4262,15 @@ GtkPlacesSidebar.sidebar .view {
   color: shade(@theme_fg_color,0.6);
   background-color: transparent; }
   GtkPlacesSidebar.sidebar .view:selected:selected:selected {
-  color: @theme_text_color; }
+  color: #121212; }
   GtkPlacesSidebar.sidebar .view:selected:selected:selected:backdrop {
-  color: shade(@theme_text_color,1.6); }
+  color: shade(#121212,1.6); }
   GtkPlacesSidebar.sidebar .view .image {
     color: shade(@theme_fg_color,0.75) }
     GtkPlacesSidebar.sidebar .view .image:selected {
-      color: @theme_text_color; }
+      color: #121212; }
       GtkPlacesSidebar.sidebar .view .image:selected:backdrop {
-        color: shade(@theme_text_color,1.6); }
+        color: shade(#121212,1.6); }
     GtkPlacesSidebar.sidebar .view .image:insensitive {
       color: @insensitive_fg_color; }
     GtkPlacesSidebar.sidebar .view .image:backdrop {
@@ -4871,13 +4871,13 @@ NemoWindow .toolbar:backdrop {
 
 NemoWindow .sidebar row:selected,
 NemoWindow .sidebar row:selected:hover {
-	color: @theme_text_color;
+	color: #121212;
 	background-color: #1e60aa;
 }
 
 NemoWindow .sidebar row:backdrop:selected,
 NemoWindow .sidebar row:backdrop:selected:hover {
-	color: shade(@theme_text_color,1.6);
+	color: shade(#121212,1.6);
 	text-shadow: none; 
 	background-color: #216abb;
 }
@@ -4964,7 +4964,7 @@ widget text/foreground color */
 @define-color theme_fg_color #cdcdcd;
 /*
 text color for entries, views and content in general */
-@define-color theme_text_color #121212;
+@define-color theme_text_color #fff;
 /*
 widget base background color */
 @define-color theme_bg_color #1a1a1a;
